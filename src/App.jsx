@@ -1,13 +1,15 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Counter from './features/counter/Counter'
+import PostsList from './features/posts/PostsList'
+import AddPostForm from './features/posts/AddPostForm'
 
 function App() {
 
   return (
     <>
-      <Counter />
+      <AddPostForm />
+      <PostsList />
     </>
   )
 }
